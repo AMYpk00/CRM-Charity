@@ -1,5 +1,5 @@
 <header>
-    <div class="logo"><a href="<?php echo BASE_URL . "/TH-index.php" ?>"><img src="./assets/pic/customLogo.png" alt="Logo"></a></div>
+    <div class="logo"><a href="<?php echo BASE_URL . "/index.php" ?>"><img src="./assets/pic/customLogo.png" alt="Logo"></a></div>
     <i class="fa-solid fa-bars"></i>
     <ul class="nav">
         <li><a class="hover" href="<?php echo BASE_URL . "/index.php" ?>">หน้าแรก</a></li>
