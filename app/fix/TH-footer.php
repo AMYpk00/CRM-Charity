@@ -4,15 +4,15 @@
         <p class="footer-links">
             <a href="<?php echo BASE_URL . "/index.php" ?>">หน้าแรก</a>
             ·
-            <a href="<?php echo BASE_URL . "/about-us.php" ?>">เกี่ยวกับเรา</a>
+            <a href="<?php echo BASE_URL . "/TH-about-us.php" ?>">เกี่ยวกับเรา</a>
             ·
-            <a href="<?php echo BASE_URL . "/activities.php" ?>">กิจกรรม</a>
+            <a href="<?php echo BASE_URL . "/TH-activities.php" ?>">กิจกรรม</a>
             ·
             <a href="https://crm-c.com/blogs/" target="_blank">บทความ</a>
             ·
-            <a href="<?php echo BASE_URL . "/donation.php" ?>">สมทบทุน</a>
+            <a href="<?php echo BASE_URL . "/TH-donation.php" ?>">สมทบทุน</a>
             ·
-            <a href="<?php echo BASE_URL . "/contact.php" ?>">ติดต่อเรา</a>
+            <a href="<?php echo BASE_URL . "/TH-contact.php" ?>">ติดต่อเรา</a>
         </p>
         <p class="footer-company-name">CRM Charity Foundation</p>
     </div>
