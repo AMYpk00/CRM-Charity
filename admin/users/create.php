@@ -16,6 +16,7 @@
     <!-- CSS files -->
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/admin.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/pic/customLogo.png">
 
 
     <!-- jQuery first -->
