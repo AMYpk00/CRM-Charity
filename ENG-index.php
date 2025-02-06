@@ -23,6 +23,8 @@ $posts = selectAll('posts', ['published' => 1]);
     <script src="./assets/script/script.js"></script>
 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/pic/customLogo.png">
+    <?php include("google.php"); ?>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
