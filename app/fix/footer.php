@@ -1,8 +1,8 @@
 <footer class="footer-distributed">
     <div class="footer-left">
-        <div class="logo"><a href="<?php echo BASE_URL . "/index.php" ?>"><img src="./assets/pic/customLogo.png" alt="Logo"></a></div>
+        <div class="logo"><a href="<?php echo BASE_URL . "/ENG-index.php" ?>"><img src="./assets/pic/customLogo.png" alt="Logo"></a></div>
         <p class="footer-links">
-            <a href="<?php echo BASE_URL . "/index.php" ?>">Home</a>
+            <a href="<?php echo BASE_URL . "/ENG-index.php" ?>">Home</a>
             ·
             <a href="<?php echo BASE_URL . "/about-us.php" ?>">About Us</a>
             ·

@@ -1,14 +1,14 @@
 <header>
-    <div class="logo"><a href="<?php echo BASE_URL . "/index.php" ?>"><img src="./assets/pic/customLogo.png" alt="Logo"></a></div>
+    <div class="logo"><a href="<?php echo BASE_URL . "/TH-index.php" ?>"><img src="./assets/pic/customLogo.png" alt="Logo"></a></div>
     <i class="fa-solid fa-bars"></i>
     <ul class="nav">
-        <li><a class="hover" href="<?php echo BASE_URL . "/TH-index.php" ?>">หน้าแรก</a></li>
+        <li><a class="hover" href="<?php echo BASE_URL . "/index.php" ?>">หน้าแรก</a></li>
         <li><a class="hover" href="<?php echo BASE_URL . "/TH-about-us.php" ?>">เกี่ยวกับเรา</a></li>
         <li><a class="hover" href="<?php echo BASE_URL . "/TH-activities.php" ?>">กิจกรรม</a></li>
         <li><a class="hover" href="https://crm-c.com/blogs/" target="_blank">บทความ</a></li>
         <li><a class="hover" href="<?php echo BASE_URL . "/TH-donation.php" ?>">สมทบทุน</a></li>
         <li><a class="hover" href="<?php echo BASE_URL . "/TH-contact.php" ?>">ติดต่อเรา</a></li>
-        <li><a class="hover" href="<?php echo BASE_URL . "/index.php" ?>"><i class="fa-solid fa-earth-americas"></i></a></li>
+        <li><a class="hover" href="<?php echo BASE_URL . "/ENG-index.php" ?>"><i class="fa-solid fa-earth-americas"></i></a></li>
 
         <?php if (isset($_SESSION['id'])): ?>
             <li>

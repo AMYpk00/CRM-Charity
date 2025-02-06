@@ -2,7 +2,7 @@
     <div class="footer-left">
         <div class="logo"><a href="<?php echo BASE_URL . "/index.php" ?>"><img src="./assets/pic/customLogo.png" alt="Logo"></a></div>
         <p class="footer-links">
-            <a href="<?php echo BASE_URL . "/TH-index.php" ?>">หน้าแรก</a>
+            <a href="<?php echo BASE_URL . "/index.php" ?>">หน้าแรก</a>
             ·
             <a href="<?php echo BASE_URL . "/about-us.php" ?>">เกี่ยวกับเรา</a>
             ·

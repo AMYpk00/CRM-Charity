@@ -1,6 +1,5 @@
 <?php
 include("path.php");
-include("app/database/db.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

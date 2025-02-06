@@ -32,22 +32,23 @@ $posts = selectAll('posts', ['published' => 1]);
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
-    <title>Home</title>
+    <title>หน้าแรก</title>
 </head>
 
 <body>
 
-    <?php include(ROOT_PATH . "/app/fix/header.php"); ?>
+    <?php include(ROOT_PATH . "/app/fix/TH-header.php"); ?>
 
     <div class="content-wrap">
         <div class="content">
-            <h1>Welcome To<br>CRM Charity Foundation</h1>
-            <p>With the belief that one should use one’s skill in helping other people, CRM-Charity Foundation aim to help other people by using our expertise in technology.
-                <br>We focus in improving people’s education, and also helping other non-profit organization in area of technologies.
-                <br>Based in Bangkok, the foundation is initiated by Cloud IT consulting expert in Thailand and the sponsors from technology companies and international organization.
+            <h1>ยินดีต้อนรับสู่<br>มูลนิธิการกุศล CRM</h1>
+            <p style="font-size:120%;">ด้วยความเชื่อที่ว่าควรใช้ทักษะของตนในการช่วยเหลือผู้อื่น มูลนิธิ CRM-Charity จึงมุ่งหวังที่จะช่วยเหลือผู้อื่นโดยใช้ความเชี่ยวชาญด้านเทคโนโลยีของเรา
+                <br>เรามุ่งเน้นในการพัฒนาการศึกษาของประชาชน ​และช่วยเหลือองค์กรไม่แสวงหาผลกำไรอื่นๆ ในด้านเทคโนโลยี 
+                <br>มูลนิธิตั้งอยู่ในกรุงเทพฯ และริเริ่มโดยผู้เชี่ยวชาญด้านการให้คำปรึกษา IT ด้านคลาวด์ในประเทศไทย 
+                <br>รวมถึงได้รับการสนับสนุนจากบริษัทเทคโนโลยีและองค์กรระหว่างประเทศ
             </p>
-            <button class="objective-btn" onclick="window.location.href='/crmc/about-us.php'">
-                What the Foundation Aims For
+            <button class="objective-btn" onclick="window.location.href='/crmc/TH-about-us.php'">
+                วัตถุประสงค์ขององค์กร
                 <i class="fa-solid fa-arrow-pointer"></i>
             </button>
         </div>
@@ -61,7 +62,7 @@ $posts = selectAll('posts', ['published' => 1]);
             <div class="post-wrap">
                 <?php foreach ($posts as $post): ?>
                     <div class="post">
-                        <a href="activity-page.php?id=<?php echo $post['id']; ?>">
+                        <a href="TH-activity-page.php?id=<?php echo $post['id']; ?>">
                             <img class="post-img" src="<?php echo BASE_URL . '/assets/pic/' . $post['image']; ?>" alt="">
                             <div class="info">
                                 <h4><?php echo $post['title']; ?></h4>
@@ -81,7 +82,7 @@ $posts = selectAll('posts', ['published' => 1]);
     <!-- Slide -->
 
     <!-- Footer -->
-    <?php include(ROOT_PATH . "/app/fix/footer.php"); ?>
+    <?php include(ROOT_PATH . "/app/fix/TH-footer.php"); ?>
     <!-- Footer -->
 
 </body>
