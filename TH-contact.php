@@ -17,6 +17,8 @@ include("app/database/db.php");
     <script src="https://kit.fontawesome.com/c37ac7a1ae.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/pic/customLogo.png">
+    <?php include("google.php"); ?>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
