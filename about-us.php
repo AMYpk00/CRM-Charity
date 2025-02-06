@@ -16,6 +16,8 @@ include("path.php");
     <script src="./assets/script/script.js"></script>
 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/pic/customLogo.png">
+    <?php include("google.php"); ?>
     
     <title>About CRM-C</title>
 </head>
